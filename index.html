@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Akshaya | Portfolio</title>
+  <style>
+    /* Base Styling */
+    * { margin: 0; padding: 0; box-sizing: border-box; font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; }
+    body { background: linear-gradient(120deg, #dbeafe, #eef2ff); color: #333; }
+
+    /* Header / Hero */
+    header { text-align: center; padding: 60px 20px; background: linear-gradient(135deg, #6366f1, #4338ca); color: white; position: relative; }
+    header img { width: 140px; height: 140px; border-radius: 50%; border: 4px solid white; margin-bottom: 20px; box-shadow: 0 6px 15px rgba(0,0,0,0.3); }
+    header h1 { font-size: 2.5rem; margin-bottom: 10px; }
+    header p { font-size: 1.1rem; }
+    nav { margin-top: 20px; }
+    nav a { color: white; margin: 0 12px; text-decoration: none; font-weight: 600; transition: color 0.3s; }
+    nav a:hover { color: #a5b4fc; }
+
+    /* Sections */
+    section { padding: 60px 20px; max-width: 1000px; margin: auto; }
+    h2 { font-size: 2rem; margin-bottom: 20px; color: #4338ca; text-align: center; }
+
+    /* Cards (Glassmorphism) */
+    .card { background: rgba(255, 255, 255, 0.75); border-radius: 16px; padding: 25px; backdrop-filter: blur(10px); box-shadow: 0 4px 20px rgba(0,0,0,0.1); transition: transform 0.3s; }
+    .card:hover { transform: translateY(-5px); }
+
+    .projects, .skills, .achievements { display: grid; gap: 25px; grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); }
+
+    /* Contact */
+    #contact p { text-align: center; font-size: 1.1rem; margin: 10px 0; }
+    #contact a { color: #4338ca; text-decoration: none; font-weight: bold; }
+    #contact a:hover { text-decoration: underline; }
+
+    /* Footer */
+    footer { text-align: center; padding: 20px; background: #4338ca; color: white; margin-top: 40px; font-size: 0.9rem; }
+  </style>
+</head>
+<body>
+  <header>
+    <img src="C:\Users\Raghu\face_recog_project\known_faces\akshaya.jpg" alt="Akshaya Profile Photo">
+    <h1>Akshaya</h1>
+    <p>MCA 2nd Year | Aspiring AI & Software Developer</p>
+    <p><i>Turning code into intelligence</i></p>
+    <nav>
+      <a href="#about">About</a>
+      <a href="#projects">Projects</a>
+      <a href="#skills">Skills</a>
+      <a href="#achievements">Achievements</a>
+      <a href="#contact">Contact</a>
+    </nav>
+  </header>
+
+  <section id="about">
+    <h2>About Me</h2>
+    <div class="card">
+      <p>I’m Akshaya, currently pursuing MCA (2nd Year). Passionate about Artificial Intelligence and software development, I enjoy building projects that solve real problems. My work includes a Face Recognition Attendance System and an Educational Chatbot. I believe in turning code into intelligence and making technology impactful.</p>
+    </div>
+  </section>
+
+  <section id="projects">
+    <h2>Projects</h2>
+    <div class="projects">
+      <div class="card">
+        <h3>Face Recognition Attendance System</h3>
+        <p>Built using Python and OpenCV. Captures faces through webcam and records attendance automatically into CSV files with present/absent status.</p>
+      </div>
+      <div class="card">
+        <h3>Educational Chatbot</h3>
+        <p>A conversational assistant that answers student FAQs and helps with study queries using simple intent recognition and responses.</p>
+      </div>
+    </div>
+  </section>
+
+  <section id="skills">
+    <h2>Skills</h2>
+    <div class="skills">
+      <div class="card">
+        <p><b>Languages:</b> C, Java, Python and HTML</p>
+      </div>
+    </div>
+  </section>
+
+  <section id="achievements">
+    <h2>Achievements</h2>
+    <div class="achievements">
+      <div class="card">
+        <ul>
+          <li>🏅 B.Sc Gold Medalist</li>
+        </ul>
+      </div>
+    </div>
+  </section>
+
+  <section id="contact">
+    <h2>Contact</h2>
+    <p>Email: <a href="mailto:akshayagoudsmiley@gmail.com">akshayagoudsmiley@gmail.com</a></p>
+    <p>LinkedIn: <a href="https://www.linkedin.com/in/thalla-akshaya" target="_blank">Thalla Akshaya</a></p>
+    <p>GitHub: <a href="https://github.com/akshayaa2525" target="_blank">akshayaa2525</a></p>
+  </section>
+
+  <footer>
+    <p>© 2025 Akshaya | Portfolio</p>
+  </footer>
+</body>
+</html>
